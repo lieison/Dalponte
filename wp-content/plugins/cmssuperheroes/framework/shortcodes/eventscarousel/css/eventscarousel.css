@@ -1,0 +1,8 @@
+.cshero-eventscarousel-image{ position: relative;}
+.cshero-eventscarousel-image .overlay{ position: absolute; top: 0; left: 0; bottom: 0; right: 0; -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";	filter: alpha(opacity=0);	opacity: 0; -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s;-o-transition: all 0.3s linear 0s; -ms-transition: all 0.3s linear 0s; transition: all 0.3s linear 0s; background-color: rgba(0,0,0,0.7);}
+.cshero-eventscarousel-image .overlay .overlay-content{ position: absolute; width: 100%; top: 50%; -webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%); padding: 10px;}
+
+/* Hover state */
+.cshero-eventscarousel-post article:hover .overlay,
+.cshero-eventscarousel-post article:focus .overlay,
+.cshero-eventscarousel-post article:active .overlay{-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";	filter: alpha(opacity=1);	opacity: 1;}

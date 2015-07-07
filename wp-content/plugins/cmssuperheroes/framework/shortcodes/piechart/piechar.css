@@ -1,0 +1,132 @@
+/* ==========================================================================
+  Full Pie Chart
+========================================================================== */
+.cs-full-piechart .cs-full-piechart-title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.cs-full-piechart .cs-main-canvas {
+  margin: auto;
+  height:auto!important;  
+}
+.cs-full-piechart ul.cs-piechart-list {
+  text-align: center;
+  padding: 0;
+  margin: 0 0 10px;
+}
+.cs-full-piechart ul.cs-piechart-list li {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cs-full-piechart ul.cs-piechart-list li + li{ margin-left: 15px;}
+.cs-full-piechart ul.cs-piechart-list li  .item_color {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 12px -8px 0;
+}
+.rtl .cs-full-piechart ul.cs-piechart-list li  .item_color {
+  margin: 0 0 -8px 10px;
+}
+.cs-full-piechart .cs-full-piechart-description {
+  text-align: center;
+}
+.cs-full-piechart.style-1 ul.cs-piechart-list {
+  margin-top: 25px;
+}
+.cs-full-piechart.style-2 .cs-full-piechart-description {
+  margin-top: 20px;
+}
+.cs-full-piechart.style-3 .cs-full-piechart-description {
+  margin: 20px 0 30px 0;
+}
+.cs-full-piechart.style-4 ul.cs-piechart-list li,
+.cs-full-piechart.style-5 ul.cs-piechart-list li,
+.cs-full-piechart.style-6 ul.cs-piechart-list li {
+  display: block;
+}
+.cs-full-piechart.style-4 #canvas-holder,
+.cs-full-piechart.style-6 #canvas-holder {
+  display: table;
+}
+.cs-full-piechart.style-4 #canvas-holder .cs-full-piechart-meta,
+.cs-full-piechart.style-4 #canvas-holder .cs-full-piechart-canvas,
+.cs-full-piechart.style-6 #canvas-holder .cs-full-piechart-meta,
+.cs-full-piechart.style-6 #canvas-holder .cs-full-piechart-canvas {
+  display: table-cell;
+  vertical-align: top;
+}
+.cs-full-piechart.style-4 #canvas-holder .cs-piechart-list,
+.cs-full-piechart.style-6 #canvas-holder .cs-piechart-list {
+  margin: 0 0 0 20px;
+}
+.rtl .cs-full-piechart.style-4 #canvas-holder .cs-piechart-list,
+.rtl .cs-full-piechart.style-6 #canvas-holder .cs-piechart-list {
+  margin: 0 20px 0 0;
+}
+.cs-full-piechart.style-4 #canvas-holder .cs-piechart-list li,
+.cs-full-piechart.style-6 #canvas-holder .cs-piechart-list li {
+  margin: 0 0 15px;
+}
+.cs-full-piechart.style-4 .cs-full-piechart-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.cs-full-piechart.style-6 .cs-full-piechart-title {
+  margin-bottom: 20px;
+}
+.cs-full-piechart.style-4 .cs-full-piechart-title,
+.cs-full-piechart.style-4 .cs-full-piechart-description,
+.cs-full-piechart.style-5 .cs-full-piechart-description,
+.cs-full-piechart.style-6 .cs-full-piechart-title,
+.cs-full-piechart.style-6 .cs-full-piechart-description {
+  text-align: left;
+}
+.rtl .cs-full-piechart.style-4 .cs-full-piechart-title,
+.rtl .cs-full-piechart.style-4 .cs-full-piechart-description,
+.rtl .cs-full-piechart.style-5 .cs-full-piechart-description,
+.rtl .cs-full-piechart.style-6 .cs-full-piechart-title,
+.rtl .cs-full-piechart.style-6 .cs-full-piechart-description {
+  text-align: right;
+}
+.cs-full-piechart.style-5 .cs-full-piechart-description {
+  margin-top: 27px;
+}
+.cs-full-piechart.style-6 .cs-full-piechart-description {
+  margin-bottom: 30px;
+}
+.cs-full-piechart.style-5 .cs-piechart-list {
+  margin-left: 20px;
+  float: left;
+}
+.rtl .cs-full-piechart.style-5 .cs-piechart-list {
+  margin-left: 0;
+  margin-right: 20px;
+  float: right;
+}
+.cs-full-piechart.style-4 .cs-piechart-list li,
+.cs-full-piechart.style-5 .cs-piechart-list li,
+.cs-full-piechart.style-6 .cs-piechart-list li {
+  float: left;
+}
+.rtl .cs-full-piechart.style-4 .cs-piechart-list li,
+.rtl .cs-full-piechart.style-5 .cs-piechart-list li,
+.rtl .cs-full-piechart.style-6 .cs-piechart-list li {
+  float: right;
+}
+.cs-full-piechart.style-5 .cs-piechart-list li {
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+.cs-full-piechart.style-5 .cs-main-canvas {
+  margin: 0;
+}
+.cs-full-piechart.style-5 .cs-main-style-5 {
+  display: table;
+}
+.cs-full-piechart.style-5 .cs-main-style-5 .cs-full-piechart-content.title,
+.cs-full-piechart.style-5 .cs-main-style-5 #canvas-holder {
+  vertical-align: top;
+  display: table-cell;
+}

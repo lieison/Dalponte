@@ -1,0 +1,22 @@
+.carousel-control{
+    background: none !important;
+}
+.carousel a {
+    height: 100%;
+}
+.carousel a,
+.carousel .carousel-indicators{display: none;}
+.carousel:hover a,
+.carousel:hover .carousel-indicators{display: block;}
+.carousel a span{
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+}
+.carousel a.right span{right: 40%;}
+.carousel .carousel-indicators li.active{background: #5E5E5E;}
+.carousel .carousel-indicators li{background: #A6A6A6;}
+.carousel .carousel-inner .item img {width: 100%;}

@@ -1,0 +1,83 @@
+
+.postcarousel-default .cshero-header{ margin-bottom: 60px;}
+.postcarousel-default .cshero-header .cshero-title{ margin-bottom: 30px;}
+.postcarousel-default .cshero-header .cshero-subtitle { margin-bottom: 40px;}
+
+/*item image style*/
+.postcarousel-default .cshero-carousel-image {
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+}
+.postcarousel-default .cshero-carousel-image img {}
+/*item body style*/
+.postcarousel-default .cshero-carousel-image + div{margin-top: 3px;}
+/*item meta style*/
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta {}
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta span{position: relative;}
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta span:after{content: "|"; display: inline-block;margin: 0 10px;font-size: 12px; line-height: normal;}
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta span:last-child:after{display: none;content: 0;margin: 0;}
+/*item title style */
+.postcarousel-default .cshero-carousel-body .cshero-carousel-title  {margin:0 0 15px 0;}
+.postcarousel-default .cshero-carousel-body .cshero-carousel-title a {display: block;}
+/*item description */
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta{ font-size: 11px;}
+.postcarousel-default .cshero-carousel-body .cshero-carousel-meta + .cshero-carousel-post-description{ margin-top: 20px;}
+/*item read more*/
+.postcarousel-default .cshero-carousel-body .cshero-carousel-footer{margin-top: 20px;}
+
+/* Overlay style */
+.postcarousel-default .overlay {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+          o-transform: scale(0);
+            transform: scale(0);
+}
+
+.postcarousel-default .overlay-content {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: block;
+    -webkit-transition: all 0.2s linear 0s;
+       -moz-transition: all 0.2s linear 0s;
+         -o-transition: all 0.2s linear 0s;
+        -ms-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+    -webkit-transform: translate(0px,-50%);
+       -moz-transform: translate(0px,-50%);
+        -ms-transform: translate(0px,-50%);
+         -o-transform: translate(0px,-50%);
+            transform: translate(0px,-50%); 
+}
+
+/* Hover State*/
+.postcarousel-default article:hover .overlay {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+          o-transform: scale(1);
+            transform: scale(1);
+}

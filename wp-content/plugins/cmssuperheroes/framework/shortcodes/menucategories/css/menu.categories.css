@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Start Menu Category
+========================================================================== */
+.cs-menu-category {
+    margin: 0 0 30px;
+}
+.cs-menu-category .cs-menu-category-wrap {
+    position: relative;
+}
+.cs-menu-category .cs-menu-category-image img  {
+    width: 100%;
+}
+.cs-menu-category .cs-menu-category-meta {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.cs-menu-category .cs-menu-category-meta:before {
+    position: absolute;
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+}
+.cs-menu-category .cs-menu-category-meta .cs-menu-category-title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+         -o-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+.cs-menu-category .cs-menu-category-meta .cs-menu-category-title .cs-menu-category-heading {
+    text-align: center;
+    margin: 0;
+}
+.cs-menu-category:hover .cs-menu-category-meta .cs-menu-category-title {
+    opacity: 1;
+}
+/* ==========================================================================
+   End Menu Category
+========================================================================== */

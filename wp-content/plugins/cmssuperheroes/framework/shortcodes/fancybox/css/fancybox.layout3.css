@@ -1,0 +1,15 @@
+.fancybox-layout3 .cshero-fancybox-icon {
+    width: 100%;
+    clear: both;
+    text-align: left;
+}
+
+.fancybox-layout3 .cshero-fancybox-icon .fancy-icon {
+    float: left;
+    margin-right: 20px;
+}
+
+.fancybox-layout3 .cshero-fancybox-title-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}

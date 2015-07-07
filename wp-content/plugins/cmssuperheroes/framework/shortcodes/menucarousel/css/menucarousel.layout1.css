@@ -1,0 +1,111 @@
+.cs-carousel-post .cs-carousel-container{
+	position: relative;
+}
+/* navigation style */
+
+/* Pager style */
+.bx-has-pager {
+	margin-top: 30px;
+}
+.pager-left .bx-has-pager .bx-pager-inner{
+	text-align: left;
+}
+.pager-center .bx-has-pager .bx-pager-inner{
+	text-align: center;
+}
+.pager-right .bx-has-pager .bx-pager-inner{
+	text-align: right;
+}
+.cs-carousel-menu-food .cs-menu-food-header {
+	position: relative;
+}
+.cs-carousel-menu-food .cs-menu-food-header i {
+	color: #fff;
+}
+.cs-carousel-menu-food .cs-menu-food-header a {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    height: 34px;
+    left: 0;
+    line-height: 34px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    width: 34px;
+    z-index: 1;
+}
+.cs-carousel-menu-food .cs-menu-food-header .menuFoood-overlay {
+	 background: none repeat scroll 0 0 transparent;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 300ms linear 0ms;
+       -moz-transition: all 300ms linear 0ms;
+         -o-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+            transition: all 300ms linear 0ms;
+    width: 100%;
+}
+.cs-carousel-menu-food .cs-menu-food-header:hover .menuFoood-overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+}
+.cs-carousel-menu-food .cs-menu-food-header:hover a {
+	opacity: 1;
+}
+.cs-carousel-menu-food .cs-menu-food-meta {
+	margin: 15px 0 10px;
+    position: relative;
+}
+.cs-carousel-menu-food .cs-menu-food-meta:before {
+    background: #eeeeee;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.cs-carousel-menu-food .cs-menu-food-meta .cs-menu-food-date {
+	display: block;
+	margin: 10px 0;
+}
+.cs-carousel-menu-food .cs-menu-food-meta .cs-menu-food-title {
+	line-height: 27px;
+}
+.cs-carousel-menu-food .cs-menu-food-meta .cs-menu-food-title a {
+    background: #fff;
+    padding-right: 10px;
+    position: relative;
+    z-index: 2;
+}
+.cs-carousel-menu-food .cs-menu-food-meta .cs-menu-food-price {
+	min-width: 70px;
+    text-align: right;
+}
+.cs-carousel-menu-food .cs-menu-food-meta .cs-menu-food-price span {
+    background: #fff;
+    line-height: 27px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 2;
+}
+.cs-carousel-menu-food .cs-nav ul li {
+	position: absolute;
+	top: 140px;
+	left: -90px;
+}
+.cs-carousel-menu-food .cs-nav ul li.next {
+	left: inherit;
+	right: -90px;
+}

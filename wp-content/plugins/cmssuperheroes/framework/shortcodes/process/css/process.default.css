@@ -1,0 +1,84 @@
+.cs-process-default .cshero-process-holder{
+	list-style:none;
+	padding:0;
+	position:relative;
+	overflow: hidden;
+}
+.cs-process-default .cshero-process-holder li {
+	width: 25%;
+	float: left;
+}
+.cs-process-default .cshero-process-holder li + li {
+	padding-left: 40px;
+}
+.cs-process-default .cshero-process-holder li i {
+	background: #fff;
+	color: #59c6df;
+	font-size: 30px;
+	height: 70px;
+	line-height: 70px;
+	width: 70px;
+	display: block;
+	text-align: center;
+	position: relative;
+	margin: 15px 0;
+	z-index: 1;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
+}
+.cs-process-default .cshero-process-holder li .cshero-process-inner {
+	display: inline-block;
+}
+.cs-process-default .cshero-process-holder li.item-last .cshero-process-inner {
+	position: relative;
+}
+.cs-process-default .cshero-process-holder li.item-last .cshero-process-inner:after {
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #c5c5c5;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 10000px;
+}
+.cs-process-default .cshero-process-title span {
+	display:block;
+	margin:30px 0 0;
+}
+.cs-process-default .cshero-process-separator{
+	height:2px;
+	width:80%;
+}
+.cs-process-default .cshero-process-text {
+	font-size: 13px;
+	line-height: 26px;
+}
+/*** Process Column ***/
+.cs-process-default .process-2-column .cshero-process-holder li {
+	width: 49%;	
+}
+.cs-process-default .process-3-column .cshero-process-holder li {
+	width: 33.2%;	
+}
+.cs-process-default .process-4-column .cshero-process-holder li {
+	width: 24.5%;	
+}
+.cs-process-default .process-5-column .cshero-process-holder li {
+	width: 19.7%;	
+}
+.cs-process-default .process-6-column .cshero-process-holder li {
+	width: 16.4%;	
+}
+.cs-process-default .process-7-column .cshero-process-holder li {
+	width: 12.5%;	
+}
+.cs-process-default .process-8-column .cshero-process-holder li {
+	width: 10.22%;	
+}

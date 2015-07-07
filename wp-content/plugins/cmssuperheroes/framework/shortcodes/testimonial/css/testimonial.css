@@ -1,0 +1,57 @@
+.cshero-testimonial,
+.cshero-testimonial-wrapper{
+	position: relative;
+}
+.cshero-testimonial .bx-viewport{
+	-webkit-transition: height 0.3s linear 0s;
+	-moz-transition: height 0.3s linear 0s;
+	-ms-transition: height 0.3s linear 0s;
+	-o-transition: height 0.3s linear 0s;
+	transition: height 0.3s linear 0s;
+}
+
+article.cshero_testimonial{
+	display: block;
+}
+
+/* Extra class custom style */
+
+.cshero-testimonial.font-large {
+	font-size: 20px;
+	line-height: 40px;
+}
+.cshero-testimonial.font-italic .cshero-testimonial-text{ font-style: italic;}
+
+/* Tab style */
+.testimonial-tab > div.bx-wrapper{
+	border:1px solid #eee;
+}
+.testimonial-tab .cshero_testimonial_content{
+	padding: 20px;
+}
+.testimonial-tab .cshero-pager{
+	margin-top: -1px;
+	position: relative;
+	padding-bottom: 80px;
+}
+.testimonial-tab .cshero-pager a{
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px 1px 1px 0;
+	border-color: #eee;
+	display:inline-block;
+	padding: 0;
+}
+.testimonial-tab .cshero-pager a:first-child{
+	border-left-width: 1px;
+}
+.testimonial-tab .cshero-pager a.active{
+	border-top-color: #fff;
+}
+.testimonial-tab .cshero-pager a img{
+	margin: 0 !important;
+	width: 50px !important;
+}
+/* navigation style */
+
+/* Pager style */

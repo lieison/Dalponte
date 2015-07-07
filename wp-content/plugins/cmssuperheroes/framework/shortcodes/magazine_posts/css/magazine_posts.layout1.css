@@ -1,0 +1,22 @@
+.magazine_posts-layout1 {}
+.cs-blog-thumbnail{ position: relative;}
+.magazine_posts-layout1 .overlay{ background-color: rgba(0,0,0,0.7); text-align: center;}
+.magazine_posts-layout1 .overlay a{ width: 40px; height: 40px; line-height: 40px; border: 1px solid #fff; text-align: center; display: inline-block; color: #fff;}
+/* Feature post */
+.magazine_posts-layout1.hide-post-type .cs-blog-title-inner > i{display: none;}
+
+.magazine_posts-layout1 .post-list-feature .cs-blog-media + * {
+	margin-top: 25px;
+}
+.magazine_posts-layout1 .post-list-feature .cs-blog-title-inner{margin:0; padding: 0;}
+.magazine_posts-layout1 .post-list-feature .release-date{ text-transform: uppercase;}
+.magazine_posts-layout1 .post-list-feature .release-date + * { margin-top: 12px;}
+.magazine_posts-layout1 .post-list-feature .cs-blog-header + * { margin-top: 20px;}
+/* Post list */
+.magazine_posts-layout1 .magazine-post-lists{}
+.magazine_posts-layout1 .magazine-post-lists .post-list-item{margin-bottom: 30px;}
+.magazine_posts-layout1 .magazine-post-lists .post-list-item:last-child{margin-bottom: 0;}
+.magazine_posts-layout1 .magazine-post-lists .cs-blog-title-inner{ margin: 0; padding: 0; font-size: 13px;}
+.magazine_posts-layout1 .magazine-post-lists .cs-blog-title + *{ margin-top: 20px;}
+.magazine_posts-layout1 .magazine-post-lists .release-date{ text-transform: uppercase;}
+.magazine_posts-layout1 .magazine-post-lists .release-date:before{content: "\f017";font-family: "FontAwesome"; font-size: 14px; color: #888; display: inline-block; margin-right: 15px;}

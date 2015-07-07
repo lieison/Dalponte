@@ -1,0 +1,15 @@
+.cshero-counter-wrap.counter-layout2 {
+	-webkit-transition: all 300ms linear 0s;
+	-o-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+}
+
+.cshero-counter-wrap.counter-layout1:hover {
+	cursor: pointer;
+}
+
+.cshero-counter-wrap.counter-layout1 .cshero-counter-inner .counter,
+.cshero-counter-wrap.counter-layout1 .cshero-counter-inner .counter_text {
+	line-height: normal;
+}
+

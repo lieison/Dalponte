@@ -1,0 +1,84 @@
+.cshero-team {position: relative;}
+.cshero-team .cshero-header{ margin-bottom: 60px;}
+.cshero-team .cshero-header .cshero-title{ margin-bottom: 30px;}
+.cshero-team .cshero-header .cshero-subtitle { margin-bottom: 40px;}
+
+.cshero-team .cshero-team-image{ position: relative; overflow: hidden;}
+.cshero-team-carousel-item.text-center .cshero-team-image{ margin: 0 auto;}
+.cshero-team .cshero-team-content{
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-ms-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+.cshero-team .cshero-team-content .cshero-team-social{ margin-top: 25px;}
+
+/* Social Icon */
+.cshero-team .cshero-carousel-list .cshero-team-social a{ display: inline-block; font-size: 17px;}
+
+/* Navigation */
+.cshero-team .cshero-nav li a{
+	display: inline-block;
+	text-align: center;
+}
+.cshero-team .cshero-nav.square_black li a{
+	background-color: #444;
+	color: #fff;
+}
+.cshero-team .cshero-nav.square_black li a:hover{
+	background-color: #999;
+}
+
+.cshero-team .cshero-nav.square_white li a{
+	background-color: #fff;
+	color: #444;
+}
+.cshero-team .cshero-nav.square_white li a:hover{
+	background-color: #999;
+}
+.cshero-team .cshero-nav.rounded_black li a,
+.cshero-team .cshero-nav.rounded_white li a{
+	-webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+}
+.cshero-team .cshero-nav.rounded_black li a{
+	background-color: #444;
+	color: #fff;
+}
+.cshero-team .cshero-nav.rounded_black li a:hover{
+	background-color: #999;
+}
+.cshero-team .cshero-nav.rounded_white li a{
+	background-color: #fff;
+	color: #444;
+}
+.cshero-team .cshero-nav.rounded_white li a:hover{
+	background-color: #999;
+}
+
+.cshero-team .cshero-nav.circle_black li a,
+.cshero-team .cshero-nav.circle_white li a{
+	-webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+}
+.cshero-team .cshero-nav.circle_black li a{
+	background-color: #444;
+	color: #fff;
+}
+.cshero-team .cshero-nav.circle_black li a:hover{
+	background-color: #999;
+}
+.cshero-team .cshero-nav.circle_white li a{
+	background-color: #fff;
+	color: #444;
+}
+.cshero-team .cshero-nav.circle_white li a:hover{
+	background-color: #999;
+}

@@ -1,0 +1,63 @@
+.cs-eventCount-content {
+    overflow: hidden;
+}
+.cs-eventCount-content .cs-title { 
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+.cs-eventCount-content .cs-eventCount-introImg {
+    padding: 0;
+    height: auto;
+}
+.cs-eventCount-content .cs-eventCount-contentWrap .cs-eventCount-title,
+.cs-eventCount-content .cs-eventCount-contentWrap .cs-eventCount-content-main  {
+    padding-left: 12px;
+    text-align: center;
+}
+.rtl .cs-eventCount-content .cs-eventCount-contentWrap .cs-eventCount-title,
+.rtl .cs-eventCount-content .cs-eventCount-contentWrap .cs-eventCount-content-main  {
+    padding: 0 12px 0 0;
+}
+.cs-eventCount-content .cs-eventCount-content-main {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cs-eventCount-content h3.cs-eventCount-title {
+    margin: 20px 0 15px 0;
+    padding-bottom: 0;
+    font-size: 25px;
+    letter-spacing: 0;
+}
+.cs-eventCount-content #event_countdown {
+    display: block;
+    margin: 30px 0 0;
+    display: block;
+    text-align: center;
+}
+.cs-eventCount-content #event_countdown ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.cs-eventCount-content #event_countdown ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0 25px;
+}
+.cs-eventCount-content #event_countdown ul li:last-child {
+    border-right: none;
+}
+.cs-eventCount-content #event_countdown span {
+    display: block;
+}
+.cs-eventCount-content #event_countdown span:nth-child(1) {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.cs-eventCount-content #event_countdown span:nth-child(2) {
+    font-size: 15px;
+    text-transform: uppercase;
+}

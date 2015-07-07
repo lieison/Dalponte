@@ -1,0 +1,17 @@
+.cshero-counter-wrap.counter-layout2 {
+	-webkit-transition: all 300ms linear 0s;
+	-o-transition: all 300ms linear 0s;
+	transition: all 300ms linear 0s;
+}
+.cshero-counter-wrap.counter-layout2:hover {
+	cursor: pointer;
+}
+.cshero-counter-wrap.counter-layout2 .cshero-counter-inner .cshero-counter-primary {
+	margin-bottom: 20px;
+}
+.cshero-counter-wrap.counter-layout2 .cshero-counter-inner.text-center .cshero-counter-primary {
+	margin: 0 auto 20px auto;
+}
+.cshero-counter-wrap.counter-layout2 .cshero-counter-inner.text-right .cshero-counter-primary {
+	float: right;
+}

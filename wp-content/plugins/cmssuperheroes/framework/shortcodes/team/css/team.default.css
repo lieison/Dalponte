@@ -1,0 +1,20 @@
+.team-default {}
+.team-default .cshero-carousel-list article{
+    position: relative;
+    overflow: hidden;
+}
+.team-default .cshero-carousel-list .cshero-team-image img { width: 100%;}
+/* Social list style */
+
+.team-default .cshero-carousel-list .cshero-team-social a{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.team-default .cshero-carousel-list .cshero-team-social a:last-child{
+  margin-right: 0;
+}

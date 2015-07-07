@@ -1,0 +1,21 @@
+/* Event time */
+.eventscarousel-layout1 .start-date{ position: absolute; top: 20px; left: 20px; background-color: #fff; width:70px;}
+.eventscarousel-layout1 .start-date span.edate{ padding: 15px; text-align: center; display: block; font-size: 11px; text-transform: uppercase; line-height: 11px;}
+.eventscarousel-layout1 .start-date span.date{ font-size: 26px; display: block; line-height: 26px; font-weight: 600;}
+
+.eventscarousel-layout1 .end-date{ position: absolute; top: 20px; left: 110px; background-color: #fff; width:70px;}
+.eventscarousel-layout1 .end-date span.edate{ padding: 15px; text-align: center; display: block; font-size: 11px; text-transform: uppercase; line-height: 11px;}
+.eventscarousel-layout1 .end-date span.date{ font-size: 26px; display: block; line-height: 26px;font-weight: 600;}
+
+/* Overlay style */
+.eventscarousel-layout1 .overlay-content{ text-align: center;}
+.eventscarousel-layout1 .overlay-content i {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Event content style */
+.eventscarousel-layout1 .cshero-carousel-body { margin-top: 25px;}
+.eventscarousel-layout1 .cshero-carousel-body .cshero-carousel-title{ margin: 0;}
+.eventscarousel-layout1 .cshero-carousel-body .cshero-carousel-title + .cshero-carousel-post-category{}
+.eventscarousel-layout1 .cshero-carousel-body .cshero-carousel-title + .cshero-carousel-event-time { margin-top: 10px;}

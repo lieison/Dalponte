@@ -1,0 +1,77 @@
+.cs-event-item {
+	text-align: center;
+	border: 1px solid #eee;
+	border-bottom: none;
+	padding-bottom: 30px;
+}
+.cs-event-item:last-child{
+	border-bottom: 1px solid #eee;
+}
+
+.up-event-image{
+	width: 0;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	-webkit-transition:all 0.3s linear 0s;
+	-moz-transition:all 0.3s linear 0s;
+	-ms-transition:all 0.3s linear 0s;
+	-o-transition:all 0.3s linear 0s;
+	transition:all 0.3s linear 0s;
+}
+.up-event-image img{
+	width: 100%;
+	max-width: 100%;
+}
+
+.up-event-content{
+	width: 100%;
+	-webkit-transition:all 0.3s linear 0s;
+	-moz-transition:all 0.3s linear 0s;
+	-ms-transition:all 0.3s linear 0s;
+	-o-transition:all 0.3s linear 0s;
+	transition:all 0.3s linear 0s;
+}
+.cs-event-item .event-date-time{
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-top: 30px;
+}
+.cs-event-item .event-date-time span + span{
+	margin-left: 30px;
+}
+.cs-event-item .event-date-time span i{
+	margin-right: 10px;
+}
+
+.cs-event-item .cs-event-title{
+	padding-top: 30px;
+}
+
+.event-where + .event-readmore{
+	margin-top: 40px;
+}
+
+.cs-event-item:hover,
+.cs-event-item:active,
+.cs-event-item:focus{
+	padding-bottom: 0;
+}
+
+.cs-event-item:hover .up-event-image,
+.cs-event-item:active .up-event-image,
+.cs-event-item:focus .up-event-image,
+.cs-event-item:hover .up-event-content,
+.cs-event-item:active .up-event-content,
+.cs-event-item:focus .up-event-content{
+	width: 50%;
+}
+
+.cs-event-item:hover .up-event-image img,
+.cs-event-item:active .up-event-image img,
+.cs-event-item:focus .up-event-image img{}
+/* Load more */
+.event-loadmore{
+	padding: 60px 0;
+	text-align: center;
+}

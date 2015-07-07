@@ -1,0 +1,12 @@
+.menufood-layout1 { border:1px solid #eee; padding: 70px 40px; position: relative;}
+.menufood-layout1 .cshero-category-title{ position: absolute; top: 0; background-color: #fff;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+
+.menufood-layout1 .title-categoryFood { margin-bottom: 60px;}
+.menufood-layout1 .title-categoryFood > div{ background-color: rgba(0,0,0,0.7); text-align: center;}
+
+.menufood-layout1 .title-category .title-default{ padding: 0; margin: 0; letter-spacing: 3px;}
+.menufood-layout1 .post-image { margin: 0 0 30px 0; position: relative; display: block;}
+.menufood-layout1 .post-image img{ width: 100%; max-width: 100%;}
+
+.menufood-layout1 .post-content{}
+.menufood-layout1 .post-content .cshero-post-title{ margin-bottom: 0;}

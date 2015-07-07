@@ -1,0 +1,44 @@
+.fancybox-layout4.cshero-fancybox-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.fancybox-layout4 .cshero-fancybox-front {
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	transform-style: preserve-3d;
+}
+
+.fancybox-layout4 .cshero-fancybox-front .cshero-fancybox-content,
+.fancybox-layout4 .cshero-fancybox-front .cshero-fancybox-title-image {
+	backface-visibility: hidden;
+	display: block;
+}
+
+.fancybox-layout4 .cshero-fancybox-front .cshero-fancybox-content {
+	display: none;
+}
+
+.fancybox-layout4 .cshero-fancybox-front .cshero-fancybox-content {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+}
+
+.fancybox-layout4:hover .cshero-fancybox-front {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
+}
+
+.fancybox-layout4:hover .cshero-fancybox-content {
+	display: block;
+}
+
+.fancybox-layout4:hover .cshero-fancybox-title-image {
+	display: none;
+}
+

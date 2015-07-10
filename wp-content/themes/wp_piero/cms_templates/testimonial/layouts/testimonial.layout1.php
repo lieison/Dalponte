@@ -56,10 +56,10 @@
                 <div class="cshero-testimonial-category"><?php echo strip_tags (get_the_term_list($post->ID, 'testimonial_category', '', ', ', '')); ?></div>
             <?php } ?>
 
-            <?php if($show_readmore) { ?>
-            <div class="cshero-readmore <?php echo $content_align;?>">
+            <?php  if($show_readmore && strtoupper($read_more) != "READ MORE") { ?>
+            <div  class="cshero-readmore <?php echo $content_align;?>">
                 <a class="btn btn-default" href="<?php the_permalink(); ?>">
-                    <?php echo __($read_more, THEMENAME) ; ?>
+                    <?php echo __($read_more , THEMENAME)  ; ?>
                 </a>
             </div>
             <?php } ?>

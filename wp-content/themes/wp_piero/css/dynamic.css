@@ -777,7 +777,7 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
     border-color: #5bd7c5;
 }
 #footer-bottom {
-    background-color: #9d9d9d ;
+    background-color: #000000 ;
     color: #FFFFFF;
 	margin: 0;
 }
@@ -807,7 +807,7 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
 	color:#5bd7c5;
 }
 .footer-bottom-1{
-    text-align: left;
+    text-align: center;
 }
 .footer-bottom-2{
     text-align: center;

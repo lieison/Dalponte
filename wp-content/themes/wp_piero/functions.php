@@ -1453,5 +1453,10 @@ function cshero_woo_loadmore_callback(){
     exit();
 }
 
+
+
+add_filter('widget_text', 'do_shortcode');
+
+
 ?>
 

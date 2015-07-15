@@ -71,11 +71,11 @@ body.csbody h6 > a {
 /* Header Top Color Option */
     #header-top {
         background: #333333 ;
-        color:#fff ;
+        color:#ffffff ;
     }
     #header-top h1,#header-top h2,#header-top h3,
     #header-top h4,#header-top h5,#header-top h6{
-        color: #fff;
+        color: #ffffff;
     }
     #header-top a{
         color: #888888;
@@ -83,7 +83,7 @@ body.csbody h6 > a {
     #header-top a:hover,
     #header-top a:focus,
     #header-top a:active{
-        color: #fff;
+        color: #ffffff;
     }
 
 /* Header Top 2 Color Option */
@@ -212,7 +212,7 @@ body.csbody h6 > a {
         #header-sticky .cshero-header-content-widget a:hover,
         #header-sticky .cshero-header-content-widget a:focus,
         #header-sticky .cshero-header-content-widget a:active{
-            color: #fff;
+            color: #ffffff;
         }
     /* End Sticky Header Navigation Widget */
 
@@ -317,7 +317,7 @@ body.csbody h6 > a {
     #header-sticky ul.cshero-dropdown > li > a,
     #header-sticky .menu-pages .menu > ul > li > a {
         font-size:12px; 
-        color:#111;
+        color:#111111;
         line-height: 60px;
         padding: 0 19px;
         margin:0px;
@@ -352,7 +352,7 @@ body.csbody h6 > a {
         border-bottom:1px solid #eeeeee;
     }
     #header-sticky ul.sub-menu .group > a {
-        color:#111;
+        color:#111111;
     }
     #header-sticky ul.cshero-dropdown ul > li > a{
         font-size:13px;
@@ -414,7 +414,7 @@ body.csbody h6 > a {
     .cs_custom_header_menu li.cshero-hidden-sidebar a:hover,
     .cs_custom_header_menu li.cshero-hidden-sidebar a:focus,
     .cs_custom_header_menu li.cshero-hidden-sidebar a:active{
-        color: #fff !important;
+        color: #ffffff !important;
     }
 /* End Custom Menu Header */
 #menu.menu-up .main-menu > li > ul{
@@ -740,7 +740,7 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
     Start Footer
 =========================================================*/
 #footer-top {
-    color: #fff;
+    color: #ffffff;
     }
 #footer-top form input:hover,
 #footer-top form input:focus,
@@ -750,10 +750,10 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
 #footer-top form textarea:focus,
 #footer-top form button:hover,
 #footer-top form button:focus{
-    color: #fff;
+    color: #ffffff;
 }
 #footer-top h3.wg-title {
-    color: #fff;
+    color: #ffffff;
     font-size: 14px;
 }
 
@@ -762,13 +762,13 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
             text-transform: uppercase;
     }
 #footer-top a {
-    color: #fff;
+    color: #ffffff;
 }
 #footer-top a:hover {
     color: #5bd7c5;
 }
 #footer-top .cs-social a i {
-    color:#fff;
+    color:#ffffff;
 }
 #footer-top .cs-social a:hover i {
     color: #5bd7c5;
@@ -777,7 +777,7 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
     border-color: #5bd7c5;
 }
 #footer-bottom {
-    background-color: #000000 ;
+    background-color: #9d9d9d ;
     color: #FFFFFF;
 	margin: 0;
 }
@@ -799,15 +799,15 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
 }
 
 #footer-top .widget_cs_social_widget.style2 ul li a{
-	background-color:  #fff;
-	color:#fff;
+	background-color:  #ffffff;
+	color:#ffffff;
 }
 #footer-top .widget_cs_social_widget.style2 ul li a:hover{
 	background-color:  #5bd7c5;
 	color:#5bd7c5;
 }
 .footer-bottom-1{
-    text-align: center;
+    text-align: left;
 }
 .footer-bottom-2{
     text-align: center;
@@ -899,7 +899,7 @@ body.right_sidebar_opened {
 /*======================================*/
 /*        Shortcode                     */
 /*======================================*/
-
+                                    
 /* ==========================================================================
    [Start] All Style Woocommorce
 ========================================================================== */

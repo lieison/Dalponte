@@ -722,13 +722,13 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
     Start Bottom
 =========================================================*/
 #cs-bottom-wrap {
-    color:  ;
+    color: #ffffff ;
 	padding:;
 	margin:;
 }
 #cs-bottom-wrap h3,#cs-bottom-wrap h1,#cs-bottom-wrap h2,#cs-bottom-wrap h4
 ,#cs-bottom-wrap h5,#cs-bottom-wrap h6 {
-    color:  ;
+    color: #ffffff ;
 }
 #cs-bottom-wrap a {
     color:  ;
@@ -782,7 +782,10 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
 	margin: 0;
 }
 #footer-bottom .container{
-				padding: 37px 0;	
+			border-style:;
+		border-color:;
+		border-width:;
+				padding: 10px 0;	
 	}
 #footer-bottom h3.wg-title {
     color: #ffffff;

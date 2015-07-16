@@ -10,12 +10,14 @@
  * @var $this WPBakeryShortCode_VC_Wp_Posts
  */
 $output = '';
+
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 extract( $atts );
 
+
 $el_class = $this->getExtraClass( $el_class );
 
-$output = '<div class="vc_wp_posts wpb_content_element' . esc_attr( $el_class ) . '">';
+$output = '<div style="h2 { color:white; }"  class="vc_wp_posts wpb_content_element' . esc_attr( $el_class ) . '">';
 $type = 'WP_Widget_Recent_Posts';
 $args = array();
 global $wp_widget_factory;

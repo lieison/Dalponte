@@ -182,8 +182,8 @@ body.csbody h6 > a {
     .sticky-header .cshero-logo > a{
         line-height: 60px;
         min-height: 60px;
-        padding:;
-        margin:;
+        padding:0;
+        margin:0;
     }
 
     /* Sticky Header Main Navigation Widget */
@@ -797,7 +797,7 @@ NOTE: you need add extra class name called parallax-form to row or column or sho
     color: #FFFFFF;
 }
 #footer-top {
-    padding: 80px 0px;
+    padding: 20px 0px;
     margin: 0;
 }
 

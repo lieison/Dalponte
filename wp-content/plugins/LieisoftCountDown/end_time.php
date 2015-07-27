@@ -12,9 +12,9 @@ $s          = FALSE;
 if(!function_exists("custom_get_availability")){
       
     function custom_get_availability( $availability, $_product ) {
-        if ( $_product->is_in_stock() ) $availability['availability'] = __('IN STOCK', 'woocommerce');
+        if ( $_product->is_in_stock() ) $availability['availability'] = __(get_option("ls_stock_"), 'woocommerce');
   
-        if ( !$_product->is_in_stock() ) $availability['availability'] = __('SOLD OUT', 'woocommerce');
+        if ( !$_product->is_in_stock() ) $availability['availability'] = __(get_option("ls_outstock_"), 'woocommerce');
         return $availability;
     }
 
@@ -75,7 +75,7 @@ if($now_ > $date_ ){
 <div class="count_down" id="getting-started"></div>   
 <br>
 <?php else: ?>
-    <div><p><b></b></p></div>
+<div><p><b><?php echo get_option("ls_campain_"); ?></b></p></div>
 <?php endif; ?>
 
 <script type="text/javascript">
